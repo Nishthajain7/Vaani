@@ -1,0 +1,100 @@
+{"clean": "Message neha send money", "slots": {"intent": "send_message", "recipient": "neha", "message": "send money"}, "noisy": "Message nehe send money"}
+{"clean": "Weather in delhi", "slots": {"intent": "check_weather", "location": "delhi"}, "noisy": "Weather in delhi"}
+{"clean": "Message neha call mom", "slots": {"intent": "send_message", "recipient": "neha", "message": "call mom"}, "noisy": "Messagee पानी call mom"}
+{"clean": "Set a reminder for noon to call mom", "slots": {"intent": "set_reminder", "time": "noon", "message": "call mom"}, "noisy": "Set पौने r for noon ta call mom"}
+{"clean": "Forecast for chennai", "slots": {"intent": "check_weather", "location": "chennai"}, "noisy": "Forecast for chennai"}
+{"clean": "How's the weather in bangalore", "slots": {"intent": "check_weather", "location": "bangalore"}, "noisy": "How's the weather in bangalore"}
+{"clean": "Weather in hyderabad", "slots": {"intent": "check_weather", "location": "hyderabad"}, "noisy": "Weather in hyderabad"}
+{"clean": "Set reminder at noon for finish project", "slots": {"intent": "set_reminder", "time": "noon", "message": "finish project"}, "noisy": "Set reminder at noon for finish project"}
+{"clean": "Play some music hape shayad", "slots": {"intent": "play_media", "media_type": "music", "title": "hape shayad"}, "noisy": "Play somee music hapee shayad"}
+{"clean": "Remember to finish project at 6:30 AM", "slots": {"intent": "set_reminder", "time": "6:30 AM", "message": "finish project"}, "noisy": "Remember to finish project at 6:30 AM"}
+{"clean": "Wake me at 6 AM", "slots": {"intent": "set_alarm", "time": "6 AM"}, "noisy": "Wake me at 6 AM"}
+{"clean": "WhatsApp priya send money", "slots": {"intent": "send_message", "recipient": "priya", "message": "send money"}, "noisy": "WhatsApp priyaa send money"}
+{"clean": "Set alarm at 6:30 AM", "slots": {"intent": "set_alarm", "time": "6:30 AM"}, "noisy": "Set alarm at 6:30 AM"}
+{"clean": "Set a reminder for 6 AM to call doctor", "slots": {"intent": "set_reminder", "time": "6 AM", "message": "call doctor"}, "noisy": "Set a reminder for 6 AM too call doctor"}
+{"clean": "Set a reminder for 8 AM to meet at cafe", "slots": {"intent": "set_reminder", "time": "8 AM", "message": "meet at cafe"}, "noisy": "reSet a reminder for 8 AM too meet at cafee"}
+{"clean": "Remember to send money at 8 AM", "slots": {"intent": "set_reminder", "time": "8 AM", "message": "send money"}, "noisy": "Remember to send money at 8 AM"}
+{"clean": "Play some album old is gold", "slots": {"intent": "play_media", "media_type": "album", "title": "old is gold"}, "noisy": "Play soma album old is gold"}
+{"clean": "Set a reminder for 11 PM to buy groceries", "slots": {"intent": "set_reminder", "time": "11 PM", "message": "buy groceries"}, "noisy": "Set a reminder for 11 PM to buy groceries"}
+{"clean": "Set alarm at 5:45 PM", "slots": {"intent": "set_alarm", "time": "5:45 PM"}, "noisy": "Set सात पानी पानी PM"}
+{"clean": "Message sonu send money", "slots": {"intent": "send_message", "recipient": "sonu", "message": "send money"}, "noisy": "Message sonu send money"}
+{"clean": "Open song romantic track", "slots": {"intent": "play_media", "media_type": "song", "title": "romantic track"}, "noisy": "Open song romantic track"}
+{"clean": "Send message to vikram saying call doctor", "slots": {"intent": "send_message", "recipient": "vikram", "message": "call doctor"}, "noisy": "Send messagee too vikram saying call doctor"}
+{"clean": "Listen to dance number on playlist", "slots": {"intent": "play_media", "media_type": "playlist", "title": "dance number"}, "noisy": "Listen to dance number on नौ"}
+{"clean": "Text neha send documents", "slots": {"intent": "send_message", "recipient": "neha", "message": "send documents"}, "noisy": "Text neha send documents"}
+{"clean": "Remind me to send money at 10 AM", "slots": {"intent": "set_reminder", "time": "10 AM", "message": "send money"}, "noisy": "Remind mee too send money at 10 AM"}
+{"clean": "How's the weather in bangalore", "slots": {"intent": "check_weather", "location": "bangalore"}, "noisy": "How's thee weather in bangalore"}
+{"clean": "Message ajay send documents", "slots": {"intent": "send_message", "recipient": "ajay", "message": "send documents"}, "noisy": "Message ajay send documents"}
+{"clean": "Remind me to water plants at 7 PM", "slots": {"intent": "set_reminder", "time": "7 PM", "message": "water plants"}, "noisy": "Remind होगा to water plants at 7 PM"}
+{"clean": "How's the weather in mumbai", "slots": {"intent": "check_weather", "location": "mumbai"}, "noisy": "How's thee weather in mumbai"}
+{"clean": "Play album punjabi song", "slots": {"intent": "play_media", "media_type": "album", "title": "punjabi song"}, "noisy": "Play album punjabi song"}
+{"clean": "WhatsApp simran finish project", "slots": {"intent": "send_message", "recipient": "simran", "message": "finish project"}, "noisy": "WhatsApp खाना finish project"}
+{"clean": "WhatsApp pooja water plants", "slots": {"intent": "send_message", "recipient": "pooja", "message": "water plants"}, "noisy": "WhatsApp pooja water plants"}
+{"clean": "Remember to call mom at noon", "slots": {"intent": "set_reminder", "time": "noon", "message": "call mom"}, "noisy": "Remember too call mom at noon"}
+{"clean": "Listen to romantic track on music", "slots": {"intent": "play_media", "media_type": "music", "title": "romantic track"}, "noisy": "Listen हुआ हुआ track on music"}
+{"clean": "Wake me up at 5:45 PM", "slots": {"intent": "set_alarm", "time": "5:45 PM"}, "noisy": "Wake me up at होगा नहीं"}
+{"clean": "Wake me at 8 AM", "slots": {"intent": "set_alarm", "time": "8 AM"}, "noisy": "Wakee mee at 8 AM"}
+{"clean": "Set a reminder for midnight to finish project", "slots": {"intent": "set_reminder", "time": "midnight", "message": "finish project"}, "noisy": "Set a reminder for midnight too finish project"}
+{"clean": "Play album despacito", "slots": {"intent": "play_media", "media_type": "album", "title": "despacito"}, "noisy": "Play नौ दूध"}
+{"clean": "Send message to sonu saying finish project", "slots": {"intent": "send_message", "recipient": "sonu", "message": "finish project"}, "noisy": "Send messagee too sonu saying finish project"}
+{"clean": "How's the weather in mumbai", "slots": {"intent": "check_weather", "location": "mumbai"}, "noisy": "How's thee weather in mumbai"}
+{"clean": "WhatsApp vikram water plants", "slots": {"intent": "send_message", "recipient": "vikram", "message": "water plants"}, "noisy": "WhatsApp vikram water plants"}
+{"clean": "Text ajay call doctor", "slots": {"intent": "send_message", "recipient": "ajay", "message": "call doctor"}, "noisy": "reT ajay आठ पौने"}
+{"clean": "Set an alarm for 8 AM", "slots": {"intent": "set_alarm", "time": "8 AM"}, "noisy": "Set an alarm for 8 AM"}
+{"clean": "Play some album punjabi song", "slots": {"intent": "play_media", "media_type": "album", "title": "punjabi song"}, "noisy": "Play some album punjabi छ"}
+{"clean": "Set alarm at 9 PM", "slots": {"intent": "set_alarm", "time": "9 PM"}, "noisy": "Set alarm at 9 PM"}
+{"clean": "Play album romantic track", "slots": {"intent": "play_media", "media_type": "album", "title": "romantic track"}, "noisy": "transP  album romantic track"}
+{"clean": "How's the weather in lucknow", "slots": {"intent": "check_weather", "location": "lucknow"}, "noisy": "How's thee weather in lucknow"}
+{"clean": "Send message to pooja saying call mom", "slots": {"intent": "send_message", "recipient": "pooja", "message": "call mom"}, "noisy": "Send message to poojaa saying call mom"}
+{"clean": "WhatsApp ajay take out trash", "slots": {"intent": "send_message", "recipient": "ajay", "message": "take out trash"}, "noisy": "WhatsApp ajay take out trash"}
+{"clean": "Wake me up at 10 AM", "slots": {"intent": "set_alarm", "time": "10 AM"}, "noisy": "Wake me up at 10 AM"}
+{"clean": "Wake me up at noon", "slots": {"intent": "set_alarm", "time": "noon"}, "noisy": "Wake mee up at noon"}
+{"clean": "Open music punjabi song", "slots": {"intent": "play_media", "media_type": "music", "title": "punjabi song"}, "noisy": "midOpen music punj पानी"}
+{"clean": "Set a reminder for midnight to send money", "slots": {"intent": "set_reminder", "time": "midnight", "message": "send money"}, "noisy": "Set a reminder for midnight too send money"}
+{"clean": "Set an alarm for 5:45 PM", "slots": {"intent": "set_alarm", "time": "5:45 PM"}, "noisy": "Set an alarm for 5:45 PM"}
+{"clean": "Set alarm at noon", "slots": {"intent": "set_alarm", "time": "noon"}, "noisy": "Set alarm at noon"}
+{"clean": "Play music punjabi song", "slots": {"intent": "play_media", "media_type": "music", "title": "punjabi song"}, "noisy": "Play music punjabi खाना"}
+{"clean": "Forecast for hyderabad", "slots": {"intent": "check_weather", "location": "hyderabad"}, "noisy": "Forecast for पानी"}
+{"clean": "Wake me at 11 PM", "slots": {"intent": "set_alarm", "time": "11 PM"}, "noisy": "midW  me at 11 PM"}
+{"clean": "Set an alarm for noon", "slots": {"intent": "set_alarm", "time": "noon"}, "noisy": "Set an alarm for noon"}
+{"clean": "Send message to anita saying meet at cafe", "slots": {"intent": "send_message", "recipient": "anita", "message": "meet at cafe"}, "noisy": "Send messaga ta anitaa saying meet at cafee"}
+{"clean": "Weather in kolkata", "slots": {"intent": "check_weather", "location": "kolkata"}, "noisy": "Weather in kolkataa"}
+{"clean": "Remember to send money at noon", "slots": {"intent": "set_reminder", "time": "noon", "message": "send money"}, "noisy": "Remember to send money at noon"}
+{"clean": "Set an alarm for 6:30 AM", "slots": {"intent": "set_alarm", "time": "6:30 AM"}, "noisy": "सात नौ छ for 6:30 AM"}
+{"clean": "Set alarm at 9 PM", "slots": {"intent": "set_alarm", "time": "9 PM"}, "noisy": "midSet alarm at 9 PM"}
+{"clean": "Forecast for hyderabad", "slots": {"intent": "check_weather", "location": "hyderabad"}, "noisy": "Forecast for जाना"}
+{"clean": "Text priya water plants", "slots": {"intent": "send_message", "recipient": "priya", "message": "water plants"}, "noisy": "Text priya water plants"}
+{"clean": "Open song dance number", "slots": {"intent": "play_media", "media_type": "song", "title": "dance number"}, "noisy": "Open song dance number"}
+{"clean": "Open music punjabi song", "slots": {"intent": "play_media", "media_type": "music", "title": "punjabi song"}, "noisy": "Open music punjabi song"}
+{"clean": "What's the weather in hyderabad", "slots": {"intent": "check_weather", "location": "hyderabad"}, "noisy": "preWha the weather जाना जाना"}
+{"clean": "Listen to romantic track on album", "slots": {"intent": "play_media", "media_type": "album", "title": "romantic track"}, "noisy": "Listen to romantic track on album"}
+{"clean": "Message karan meet at cafe", "slots": {"intent": "send_message", "recipient": "karan", "message": "meet at cafe"}, "noisy": "Message karan meet at cafee"}
+{"clean": "Wake me at 11 PM", "slots": {"intent": "set_alarm", "time": "11 PM"}, "noisy": "Wake me at 11 PM"}
+{"clean": "Play some song punjabi song", "slots": {"intent": "play_media", "media_type": "song", "title": "punjabi song"}, "noisy": "Play some song punjabi song"}
+{"clean": "How's the weather in mumbai", "slots": {"intent": "check_weather", "location": "mumbai"}, "noisy": "deHow's thee weather in दूध"}
+{"clean": "What's the weather in pune", "slots": {"intent": "check_weather", "location": "pune"}, "noisy": "reWhat's thee weather in punee"}
+{"clean": "Play some playlist old is gold", "slots": {"intent": "play_media", "media_type": "playlist", "title": "old is gold"}, "noisy": "Play somee दूध old is gold"}
+{"clean": "Weather in jaipur", "slots": {"intent": "check_weather", "location": "jaipur"}, "noisy": "Weather in jaipur"}
+{"clean": "Set alarm at 5:45 PM", "slots": {"intent": "set_alarm", "time": "5:45 PM"}, "noisy": "Set alarm at 5:45 PM"}
+{"clean": "How's the weather in delhi", "slots": {"intent": "check_weather", "location": "delhi"}, "noisy": "How's thee weather in delhi"}
+{"clean": "Remind me to send money at 7 PM", "slots": {"intent": "set_reminder", "time": "7 PM", "message": "send money"}, "noisy": "midRemind me to send money at 7 PM"}
+{"clean": "Remind me to call doctor at 7 PM", "slots": {"intent": "set_reminder", "time": "7 PM", "message": "call doctor"}, "noisy": "Remind me to call doctor at 7 PM"}
+{"clean": "How's the weather in pune", "slots": {"intent": "check_weather", "location": "pune"}, "noisy": "How's the weather in pune"}
+{"clean": "How's the weather in pune", "slots": {"intent": "check_weather", "location": "pune"}, "noisy": "How's thee weather in punee"}
+{"clean": "Weather in kolkata", "slots": {"intent": "check_weather", "location": "kolkata"}, "noisy": "Weather जाना नहीं"}
+{"clean": "Wake me at 7 PM", "slots": {"intent": "set_alarm", "time": "7 PM"}, "noisy": "midWaka me at 7 PM"}
+{"clean": "Text neha water plants", "slots": {"intent": "send_message", "recipient": "neha", "message": "water plants"}, "noisy": "Text neha water plants"}
+{"clean": "Open playlist romantic track", "slots": {"intent": "play_media", "media_type": "playlist", "title": "romantic track"}, "noisy": "Open playlist romantic track"}
+{"clean": "Set reminder at 10 AM for water plants", "slots": {"intent": "set_reminder", "time": "10 AM", "message": "water plants"}, "noisy": "Set reminder at 10 AM for water plants"}
+{"clean": "Open video romantic track", "slots": {"intent": "play_media", "media_type": "video", "title": "romantic track"}, "noisy": "deOpen video romantic track"}
+{"clean": "Listen to romantic track on album", "slots": {"intent": "play_media", "media_type": "album", "title": "romantic track"}, "noisy": "List  ta romantic track on album"}
+{"clean": "Play some playlist dance number", "slots": {"intent": "play_media", "media_type": "playlist", "title": "dance number"}, "noisy": "midPlay so  playlist dancee number"}
+{"clean": "Remind me to water plants at 9 PM", "slots": {"intent": "set_reminder", "time": "9 PM", "message": "water plants"}, "noisy": "Remind mee too water plants at 9 PM"}
+{"clean": "WhatsApp priya take out trash", "slots": {"intent": "send_message", "recipient": "priya", "message": "take out trash"}, "noisy": "transWhatsApp priya take ou  trash"}
+{"clean": "Remember to buy groceries at midnight", "slots": {"intent": "set_reminder", "time": "midnight", "message": "buy groceries"}, "noisy": "transRemember too b  groceries at midnight"}
+{"clean": "Wake me up at 10 AM", "slots": {"intent": "set_alarm", "time": "10 AM"}, "noisy": "midWakee mee up at 10 AM"}
+{"clean": "Weather in hyderabad", "slots": {"intent": "check_weather", "location": "hyderabad"}, "noisy": "Weather in नौ"}
+{"clean": "Remember to finish project at 10 AM", "slots": {"intent": "set_reminder", "time": "10 AM", "message": "finish project"}, "noisy": "preRemember to finish p  at 10 AM"}
+{"clean": "Send message to raj saying pay bill", "slots": {"intent": "send_message", "recipient": "raj", "message": "pay bill"}, "noisy": "preSend messagee too raj saying pay bill"}
+{"clean": "Set alarm at noon", "slots": {"intent": "set_alarm", "time": "noon"}, "noisy": "Set alarm at पानी"}
+{"clean": "Remember to take out trash at midnight", "slots": {"intent": "set_reminder", "time": "midnight", "message": "take out trash"}, "noisy": "reRemember to take out trash at midnight"}

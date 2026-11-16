@@ -1,0 +1,29 @@
+# Build output
+build/
+tmp/
+*.o
+*.a
+*.so
+*.so.*
+vaani_cli
+
+# Large model assets (keep the small vocab/label files and the trained model)
+models/*.onnx
+!models/vaani_nlu.onnx
+models/*.onnx.data
+models/*.gguf
+models/.cache/
+*.gguf
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

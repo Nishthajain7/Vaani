@@ -1,0 +1,7 @@
+{
+  "0": "set_reminder",
+  "1": "send_message",
+  "2": "play_media",
+  "3": "check_weather",
+  "4": "set_alarm"
+}

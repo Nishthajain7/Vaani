@@ -1,0 +1,15 @@
+{
+  "0": "O",
+  "1": "B-time",
+  "2": "I-time",
+  "3": "B-recipient",
+  "4": "I-recipient",
+  "5": "B-message",
+  "6": "I-message",
+  "7": "B-title",
+  "8": "I-title",
+  "9": "B-location",
+  "10": "I-location",
+  "11": "B-media_type",
+  "12": "I-media_type"
+}
