@@ -127,23 +127,16 @@ python3 scripts/train_vaani_nlu.py --samples 6000 --epochs 15
 Training takes about a minute on CPU, generating `data/train_nlu.jsonl`,
 `models/vocab.txt`, both label files, and the ONNX model.
 
+<!-- benchmark-results-start -->
 ## Benchmarks
 
-The benchmark runs 100 samples from `data/eval_set.jsonl` across three configurations:
+Evaluated on `data/eval_set.jsonl` (100 ASR-noised samples) and `data/hinglish_top_test.jsonl` (2,838 human test samples) using `full_cpp_pipeline` (`vaani_parse()` via `libvaani_runtime.so`):
 
-- **raw**: noisy text → Qwen2.5-0.5B-Instruct Q4_K_M via `llama-cpp-python`.
-- **normalized**: `normalize_text(noisy)` → the same SLM.
-- **full_cpp_pipeline**: `vaani_parse()` through `build/libvaani_runtime.so`
-  via ctypes.
+| Dataset | Samples | Intent Acc. % | Slot EM % | Token Fertility | p50 (ms) | p95 (ms) | Avg (ms) | Peak RSS (MB) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `eval_set.jsonl` (ASR-noised) | 100 | **88.0%** | **57.0%** | 0.70 | 22.4 | 25.8 | 22.5 | 19.7 |
+| `hinglish_top_test.jsonl` (Human) | 2,838 | **92.3%** | 14.4% | 0.71 | 22.2 | 24.4 | 22.1 | 22.5 |
 
-*Note: Both SLM passes use a JSON prompt with regex extraction. `full_cpp_pipeline` wall-clock latency currently includes Python subprocess startup and model load, and Peak RSS reflects the entire benchmark harness process (including the loaded GGUF model).*
-
-<!-- benchmark-results-start -->
-| Pass | Intent Acc. % | Slot EM % | Token Fertility | p50 (ms) | p95 (ms) | Avg (ms) | Peak RSS (MB) |
-|------|---------------|-----------|-----------------|----------|----------|----------|---------------|
-| raw | 62.0 | 23.0 | 2.68 | 1059.9 | 2062.5 | 1134.2 | 605.8 |
-| normalized | 59.0 | 23.0 | 2.79 | 1115.1 | 3366.6 | 1311.2 | 617.6 |
-| full_cpp_pipeline | 90.0 | 66.0 | 1.49 | 290.0 | 341.4 | 296.0 | 600.0 |
 <!-- benchmark-results-end -->
 
 Run it with:

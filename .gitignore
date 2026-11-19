@@ -23,6 +23,17 @@ __pycache__/
 .venv/
 venv/
 
+# Large Models & Raw Downloaded Datasets
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+data/raw/
+data/train_nlu.jsonl
+data/hinglish_top_train.jsonl
+data/hinglish_top_val.jsonl
+
 # Editors / OS
 .vscode/
 .idea/
