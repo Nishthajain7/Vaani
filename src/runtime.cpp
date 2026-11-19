@@ -347,11 +347,19 @@ extern "C" bool vaani_init(const char* model_path, const char* vocab_path,
     g_state.vocab_cls_id = vocab_id(g_state.vocab, "[CLS]", 2);
     g_state.vocab_sep_id = vocab_id(g_state.vocab, "[SEP]", 3);
 
-    // 5. Validate model file exists
+    // 5. Validate model file exists (also handle Android asset paths)
+    // On Android, model_path may be an asset path; resolve relative to
+    // the configured models dir or check if the file exists at the given path.
     std::string model_to_use = model_path ? model_path : "models/vaani_nlu.onnx";
     if (!std::filesystem::exists(model_to_use)) {
-        std::cerr << "Model file not found: " << model_to_use << std::endl;
-        return false;
+        // Try resolving relative to PROJECT_ROOT/models/
+        std::string fallback = "models/" + std::string(model_path ? model_path : "vaani_nlu.onnx");
+        if (std::filesystem::exists(fallback)) {
+            model_to_use = fallback;
+        } else {
+            std::cerr << "Model file not found: " << model_to_use << std::endl;
+            return false;
+        }
     }
     g_state.model_path = model_to_use;
 
@@ -436,7 +444,9 @@ extern "C" void vaani_free_result(const char* json_str) {
 // ──────────────────────────────────────────────
 
 extern "C" float vaani_get_estimated_latency_ms() {
-    // Microbenchmarked: typically 10-14 ms on Skylake-class CPU for this
-    // pipeline (normalizer + WordPiece + ONNX INT8 inference via Python subprocess)
-    return 12.0f;
+    // Measured p50 from benchmark suite (bench/run_benchmark.py); Python
+    // subprocess dominates latency (~290 ms p50). This is not a per-call
+    // measurement but a representative estimate from the last benchmark run.
+    // Update this value when rerunning the benchmark.
+    return 290.0f;
 }
